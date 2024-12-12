@@ -1,57 +1,86 @@
-# CN-Project
-Computer Network Project - Email Sending &amp; Website Searching Using DNS Server
-# Multi-Network Communication System
+# Multi-Network Communication System with DNS, Mail & Web Services
 
-A comprehensive computer networks project implementing multiple interconnected networks with DNS, Web, and Email server functionality.
+## 🌐 Project Overview
+A comprehensive computer networking project implementing DNS resolution, email communication, and web services using Cisco Packet Tracer. The system demonstrates real-world network infrastructure with multiple interconnected services.
 
-## 🌟 Features
+## ⚡ Key Features
+- **DNS Server**: Domain name resolution with A, MX, CNAME records
+- **Mail Server**: Email handling via SMTP/POP3 protocols
+- **Web Server**: HTML/CSS website hosting with search functionality
+- **Secure Authentication**: Encrypted device passwords (123)
+- **User Management**: Device-name based user credentials
 
-- Multiple network communication
-- DNS server implementation
-- Web server with search functionality
-- Email server for inter-network communication
-- Secure network protocols
+## 🛠️ Technical Architecture
 
-## 🛠️ Components
+### DNS Server Configuration
+- Multiple record type support (A, MX, CNAME)
+- Domain-to-IP resolution
+- DNS caching implementation
 
-### DNS Server
-- Domain name resolution
-- DNS record management
-- Zone transfers
-- Caching mechanism
-
-### Web Server
-- Website hosting
-- Search functionality
-- Static and dynamic content
-- HTTP/HTTPS support
-
-### Email Server
-- SMTP protocol implementation
-- Email routing
+### Mail Server Setup
+- SMTP protocol for sending emails
+- POP3 protocol for receiving emails
+- User authentication system
 - Mailbox management
-- Authentication system
 
+### Web Server Features
+- Static webpage hosting
+- HTML/CSS content delivery
+- Search functionality integration
+- DNS-based access
 
-## 🚀 Installation
+## 📋 Prerequisites
+- Cisco Packet Tracer
+- Basic networking knowledge
+- Understanding of DNS, SMTP, HTTP protocols
+
+## 🚀 Getting Started
 
 1. Clone the repository:
 ```bash:
-git clone https://github.com/yourusername/multi-network-system.git
-2. Set up the environment:
-- Configure network interfaces
-- Set up DNS records
-- Configure email server settings
-- Deploy web server
+git clone https://github.com/yourusername/network-services-project.git
+2. Open project in Cisco Packet Tracer:
+   - Load the .pkt file
+   - Verify server configurations
+   - Check device connectivity
 
-3. Start the services:
-- Launch DNS server
-- Initialize web server
-- Start email service
+## 📁 Project Structure
 
-## 💻 Usage
+## 💻 Usage Guide
 
 ### DNS Configuration
-```bash
-nslookup example.local dns-server-ip
+- Configure A records for web services
+- Set up MX records for mail routing
+- Add CNAME records for aliases
 
+### Email System
+- Use device credentials for authentication
+- Send/receive emails between network devices
+- Access mailbox through POP3
+
+### Web Access
+- Query websites through DNS
+- Access hosted web content
+- Use search functionality
+
+
+## 🛡️ Security Features
+- Password encryption for all devices
+- User authentication system
+- Secure email protocols
+- Protected web access
+
+## 🤝 Contributing
+1. Fork the repository
+2. Create a feature branch
+3. Commit changes
+4. Push to branch
+5. Submit Pull Request
+
+
+
+
+## 🌟 Acknowledgments
+- Cisco Packet Tracer documentation
+- Networking protocol standards
+- Open-source community
